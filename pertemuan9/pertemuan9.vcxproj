@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="friendclass.cpp" />
+    <ClCompile Include="friendclass1.cpp" />
     <ClCompile Include="pertemuan9.cpp" />
     <ClCompile Include="pointer1.cpp" />
     <ClCompile Include="ponter2.cpp" />
