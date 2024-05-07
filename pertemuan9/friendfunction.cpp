@@ -17,3 +17,9 @@ public:
 	pelajar() { nilai = 100 }
 
 };
+
+void manusia::shownilaipelaja (pelajar& x);
+{
+	cout << x.nilai;
+}
+
