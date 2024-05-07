@@ -14,6 +14,11 @@ public:
     }
 };
 
+class segitiga
+{
+
+};
+
 int main()
 {
     std::cout << "Hello World!\n";
