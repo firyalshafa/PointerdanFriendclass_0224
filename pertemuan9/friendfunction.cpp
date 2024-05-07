@@ -8,3 +8,12 @@ public:
 	void shownilaipelajar(pelajar& x);
 
 };
+
+class pelajar
+{
+private:
+	int nilai;
+public:
+	pelajar() { nilai = 100 }
+
+};
