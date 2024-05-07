@@ -8,7 +8,7 @@ class persegipanjang
 {
 public:
     int panjang, lebar;
-    int luas persegipanjang(int b, int a)
+    int luas persegipanjang (int b, int a)
     {
         return a*b
     }
