@@ -17,10 +17,12 @@ private:
 	int id;
 public:
 	void setId(int pId);
-	void dispalyAll(orang& a);
+	void DisplayAll(orang& a);
+
+
 };
 
-void siswa::dispalyAll(orang& a)
+void siswa::DisplayAll(orang& a);
 {
 	cout << id << endl << a.nama;
 }
@@ -31,4 +33,14 @@ void orang::setNama (string pNama)
 void siswa::setId(int pId)
 {
 	id= pId;
+}
+
+int main()
+{
+	orang joko;
+	joko.setNama("joko susilo");
+	siswa joko_siswa;
+	joko_siswa.setId(1);
+	joko_siswa.displayAll(joko);
+	return 0;
 }
