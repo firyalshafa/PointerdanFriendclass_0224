@@ -19,3 +19,8 @@ public:
 	void setId(int pId);
 	void dispalyAll(orang& a);
 };
+
+void siswa::dispalyAll(orang& a)
+{
+	cout << id << endl << a.nama;
+}
