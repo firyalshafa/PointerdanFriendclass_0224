@@ -33,5 +33,6 @@ public:
 int main()
 {
     persegipanjang pp;
+    segitiga sg;
 }
 
