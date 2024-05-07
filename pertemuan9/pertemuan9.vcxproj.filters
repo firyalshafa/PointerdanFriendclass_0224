@@ -21,5 +21,8 @@
     <ClCompile Include="pointer1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ponter2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
