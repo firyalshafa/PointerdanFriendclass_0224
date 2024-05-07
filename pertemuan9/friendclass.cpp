@@ -14,7 +14,7 @@ public:
 class siswa
 {
 private:
-		int id;
+	int id;
 public:
 	void setId(int pId);
 	void dispalyAll(orang& a);
@@ -24,3 +24,8 @@ void siswa::dispalyAll(orang& a)
 {
 	cout << id << endl << a.nama;
 }
+void orang::setNama (string pNama)
+{
+	nama = pNama;
+}
+
